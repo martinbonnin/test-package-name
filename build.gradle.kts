@@ -5,6 +5,7 @@ plugins {
 
 dependencies {
   implementation("com.apollographql.apollo3:apollo-api")
+  testImplementation(kotlin("test"))
 }
 
 apollo {

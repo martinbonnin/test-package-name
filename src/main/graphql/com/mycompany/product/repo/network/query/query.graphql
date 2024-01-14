@@ -1,4 +1,7 @@
 query Query {
-    foo
+    ...queryDetails
+}
 
+fragment queryDetails on Query {
+    foo
 }
